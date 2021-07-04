@@ -8,7 +8,7 @@ function Ue3() {
     useEffect(()=>{
         console.log('useEffect');
         document.title = `Clicked ${count} times`;
-    },[count])//array mein count pass kr fiya ab yeh useeffect tbhi chalga jb   count change hoga nhi toh nhi chalega
+    },[count])//array mein count pass kr diya ab yeh useeffect tbhi chalga jb   count change hoga nhi toh nhi chalega
     return (
         //conditional in class
         <div className={darkMode ? 'view dark-mode' : 'view light-mode'}>
